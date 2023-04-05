@@ -1,149 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Click on Organizations link successful]]>
+    </line>
+    <line>
+      <![CDATA[Click on Create Organizations LookUp Image successful]]>
+    </line>
+    <line>
+      <![CDATA[Create Organization with mandatory fields]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Contacts link successful]]>
+    </line>
+    <line>
+      <![CDATA[Click on Create Contacts LookUp Image  successful]]>
+    </line>
+    <line>
+      <![CDATA[Create contacts with mandatory fields successful]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-04-04T10:01:48 IST" name="Default suite" finished-at="2023-04-04T10:03:57 IST" duration-ms="129113">
+  <suite started-at="2023-04-05T01:19:56 IST" name="Suite" finished-at="2023-04-05T01:22:30 IST" duration-ms="153882">
     <groups>
+      <group name="RegressionSuite">
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrganizationTest()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@74fe5c40]" name="createContactWithOrganizationTest" class="vtiger.ContactsTests.CreateContactWithOrganizationTest"/>
+        <method signature="CreateOrganizationTest.demoScript()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" name="demoScript" class="vtiger.OrganizationTests.CreateOrganizationTest"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" name="createOrganizationTest" class="vtiger.OrganizationTests.CreateOrganizationTest"/>
+      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-04-04T10:01:48 IST" name="Default test" finished-at="2023-04-04T10:03:57 IST" duration-ms="129113">
-      <class name="vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:01:48 IST" name="bsConfig" finished-at="2023-04-04T10:01:48 IST" duration-ms="8" status="PASS">
+    <test started-at="2023-04-05T01:19:56 IST" name="Test" finished-at="2023-04-05T01:22:30 IST" duration-ms="153882">
+      <class name="vtiger.ContactsTests.CreateContactWithOrganizationTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@74fe5c40]" started-at="2023-04-05T01:19:56 IST" name="bsConfig" finished-at="2023-04-05T01:19:56 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:01:48 IST" name="bcConfig" finished-at="2023-04-04T10:02:18 IST" duration-ms="30622" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@74fe5c40]" started-at="2023-04-05T01:19:57 IST" name="bcConfig" finished-at="2023-04-05T01:20:31 IST" duration-ms="34129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:02:20 IST" name="bmConfig" finished-at="2023-04-04T10:02:26 IST" duration-ms="5539" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@74fe5c40]" started-at="2023-04-05T01:20:31 IST" name="bmConfig" finished-at="2023-04-05T01:20:38 IST" duration-ms="7271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="createMultipleOrgTest(java.lang.String,java.lang.String)[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:02:26 IST" name="createMultipleOrgTest" data-provider="getData" finished-at="2023-04-04T10:02:43 IST" duration-ms="17631" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Wipro]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chemicals]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="createContactWithOrganizationTest()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@74fe5c40]" started-at="2023-04-05T01:20:38 IST" name="createContactWithOrganizationTest" finished-at="2023-04-05T01:21:34 IST" duration-ms="55427" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Click on Organizations link successful]]>
+            </line>
+            <line>
+              <![CDATA[Click on Create Organizations LookUp Image successful]]>
+            </line>
+            <line>
+              <![CDATA[Create Organization with mandatory fields]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to Contacts link successful]]>
+            </line>
+            <line>
+              <![CDATA[Click on Create Contacts LookUp Image  successful]]>
+            </line>
+            <line>
+              <![CDATA[Create contacts with mandatory fields successful]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- createMultipleOrgTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:02:43 IST" name="amConfig" finished-at="2023-04-04T10:02:45 IST" duration-ms="1647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:02:45 IST" name="bmConfig" finished-at="2023-04-04T10:02:47 IST" duration-ms="1836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmConfig -->
-        <test-method signature="createMultipleOrgTest(java.lang.String,java.lang.String)[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:02:47 IST" name="createMultipleOrgTest" data-provider="getData" finished-at="2023-04-04T10:03:02 IST" duration-ms="14982" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Adidas]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Energy]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createMultipleOrgTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:02 IST" name="amConfig" finished-at="2023-04-04T10:03:04 IST" duration-ms="1724" status="PASS">
+        </test-method> <!-- createContactWithOrganizationTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@74fe5c40]" started-at="2023-04-05T01:21:34 IST" name="amConfig" finished-at="2023-04-05T01:21:36 IST" duration-ms="2833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:04 IST" name="bmConfig" finished-at="2023-04-04T10:03:06 IST" duration-ms="2446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmConfig -->
-        <test-method signature="createMultipleOrgTest(java.lang.String,java.lang.String)[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:06 IST" name="createMultipleOrgTest" data-provider="getData" finished-at="2023-04-04T10:03:22 IST" duration-ms="15419" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Infosys]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Electronics]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createMultipleOrgTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:22 IST" name="amConfig" finished-at="2023-04-04T10:03:23 IST" duration-ms="1099" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:23 IST" name="bmConfig" finished-at="2023-04-04T10:03:24 IST" duration-ms="1711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmConfig -->
-        <test-method signature="createMultipleOrgTest(java.lang.String,java.lang.String)[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:24 IST" name="createMultipleOrgTest" data-provider="getData" finished-at="2023-04-04T10:03:37 IST" duration-ms="12767" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TY]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Banking]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createMultipleOrgTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:37 IST" name="amConfig" finished-at="2023-04-04T10:03:40 IST" duration-ms="2886" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:40 IST" name="bmConfig" finished-at="2023-04-04T10:03:42 IST" duration-ms="1679" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmConfig -->
-        <test-method signature="createMultipleOrgTest(java.lang.String,java.lang.String)[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:42 IST" name="createMultipleOrgTest" data-provider="getData" finished-at="2023-04-04T10:03:52 IST" duration-ms="10594" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Qsp]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Apparel]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createMultipleOrgTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:52 IST" name="amConfig" finished-at="2023-04-04T10:03:55 IST" duration-ms="2347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:55 IST" name="acConfig" finished-at="2023-04-04T10:03:57 IST" duration-ms="2353" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@74fe5c40]" started-at="2023-04-05T01:21:36 IST" name="acConfig" finished-at="2023-04-05T01:21:40 IST" duration-ms="3829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest@130d63be]" started-at="2023-04-04T10:03:57 IST" name="asConfig" finished-at="2023-04-04T10:03:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@74fe5c40]" started-at="2023-04-05T01:22:30 IST" name="asConfig" finished-at="2023-04-05T01:22:30 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asConfig -->
-      </class> <!-- vtiger.OrganizationTests.CreateMultipleOrgWithIndustryTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- vtiger.ContactsTests.CreateContactWithOrganizationTest -->
+      <class name="vtiger.OrganizationTests.CreateOrganizationTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:21:40 IST" name="bcConfig" finished-at="2023-04-05T01:21:50 IST" duration-ms="9334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:21:50 IST" name="bmConfig" finished-at="2023-04-05T01:21:52 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:21:52 IST" name="createOrganizationTest" finished-at="2023-04-05T01:22:13 IST" duration-ms="21405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:22:13 IST" name="amConfig" finished-at="2023-04-05T01:22:14 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:22:14 IST" name="bmConfig" finished-at="2023-04-05T01:22:17 IST" duration-ms="2309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:22:17 IST" name="amConfig" finished-at="2023-04-05T01:22:20 IST" duration-ms="3127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method signature="demoScript()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:22:17 IST" name="demoScript" finished-at="2023-04-05T01:22:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoScript -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:22:20 IST" name="bmConfig" finished-at="2023-04-05T01:22:23 IST" duration-ms="3127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:22:23 IST" name="amConfig" finished-at="2023-04-05T01:22:27 IST" duration-ms="4639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method signature="regional()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:22:23 IST" name="regional" finished-at="2023-04-05T01:22:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regional -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@7f0eb4b4]" started-at="2023-04-05T01:22:27 IST" name="acConfig" finished-at="2023-04-05T01:22:30 IST" duration-ms="2552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.OrganizationTests.CreateOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
